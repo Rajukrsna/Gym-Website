@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>gymweb</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="assets/css/Collapsible-List-Group.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
+    <link rel="stylesheet" href="assets/css/FAQ-Section-for-BS5.css">
+    <link rel="stylesheet" href="assets/css/Hexagaonal-Profiles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/Ludens---Dark-Mode-Admin-Dashboard.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Duo-badges.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Table-with-Icon-Buy-Button-styles.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Table-with-Icon-Buy-Button.css">
+    <link rel="stylesheet" href="assets/css/Team-Horizontal-icons.css">
+    <link rel="stylesheet" href="assets/css/Team-Horizontal-images.css">
+    <link rel="stylesheet" href="assets/css/Team-Section-Grid-SCSS.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body" style="padding-left: 141px;">
+        <div class="container-fluid"><a class="navbar-brand" href="#">CognoGym</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">Our Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Track Your Progress</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/register">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-body shadow d-flex flex-column flex-shrink-0 position-fixed top-0 bottom-0" style="width: 4.5rem;"><a class="text-center link-body-emphasis d-block p-3 text-decoration-none border-bottom" href="/" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bootstrap-fill" style="font-size: 25px;">
+        <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"></path>
+        <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z"></path>
+    </svg><span class="visually-hidden">Icon-only</span></a>
+<ul class="nav nav-pills flex-column text-center nav-flush mb-auto">
+    <li class="nav-item"><a class="nav-link active link-light py-3 border-bottom rounded-0" href="/" aria-current="page"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-house-door">
+                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"></path>
+            </svg></a></li>
+    <li class="nav-item"><a class="nav-link py-3 border-bottom rounded-0" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-speedometer2">
+                <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4M3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"></path>
+                <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10m8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3"></path>
+            </svg></a></li>
+    <li class="nav-item"><a class="nav-link py-3 border-bottom rounded-0" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calendar-plus">
+                <path d="M8 7a.5.5 0 0 1 .5.5V9H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V10H6a.5.5 0 0 1 0-1h1.5V7.5A.5.5 0 0 1 8 7"></path>
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"></path>
+            </svg></a></li>
+    <li class="nav-item"><a class="nav-link py-3 border-bottom rounded-0" href="/foodTrack"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor">
+                <rect fill="none" height="24" width="24"></rect>
+                <path d="M12,3L4,9v12h16V9L12,3z M12.5,12.5c0,0.83-0.67,1.5-1.5,1.5v4h-1v-4c-0.83,0-1.5-0.67-1.5-1.5v-3h1v3H10v-3h1v3h0.5v-3h1 V12.5z M15,18h-1v-3.5h-1v-3c0-1.1,0.9-2,2-2V18z"></path>
+            </svg></a></li>
+    <li class="nav-item"><a class="nav-link py-3 border-bottom rounded-0" href="/friendsDashboard"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-people">
+                <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"></path>
+            </svg></a></li>
+</ul>
+<div class="dropdown p-3 border-top"><a class="dropdown-toggle link-body-emphasis d-flex align-items-center text-decoration-none" aria-expanded="false" data-bs-toggle="dropdown" role="button"><img class="rounded-circle" alt="" width="32" height="32" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" style="object-fit: cover;"></a>
+    <div class="dropdown-menu shadow text-small" data-popper-placement="top-start"><a class="dropdown-item" href="#">New project...</a><a class="dropdown-item" href="#">Settings</a><a class="dropdown-item" href="#">Profile</a>
+        <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Sign out</a>
+    </div>
+</div>
+</div>
+    <div class="container d-flex flex-column align-items-center py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Satisfy your Body with some Workouts</h2>
+                <p class="w-lg-50">This gym makes your workout experience personalised by tracking your progress. You are allowed to test our services for free</p><button onclick= "redirectToForm() "class="btn btn-primary" type="button">Try Demo Tracking</button>
+            </div>
+            <script>
+                function redirectToForm() {
+          window.location.href = '/form';
+      }
+          </script>
+            <div class="col">
+                <div class="bg-light border rounded border-light hero-nature carousel-hero jumbotron py-5 px-4">
+                    <h1 class="hero-title">High Class Equipments</h1>
+                    <p class="hero-subtitle">CognoGym Provides you with the best quality equipments with longlasting durability. Various range of weights are available at our gym</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-4 w-100" style="max-width: 800px;">
+            <div class="col-12">
+                <div class="card"><img class="card-img w-100 d-block" src="assets/img/No-Equipment-Home-Workout-2.jpg">
+                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center align-items-center p-4">
+                        <h4>Get Started to build your body</h4>
+                        <p><strong><span style="color: rgb(41, 33, 33);">Building&nbsp; a regular habit makes you a perfect man</span></strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card"><img class="card-img w-100 d-block" src="assets/img/strength-training-equipment-4.jpg">
+                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center align-items-center p-4"></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card"><img class="card-img w-100 d-block" src="assets/img/3d-gym-equipment_23-2151114163.avif">
+                    <div class="card-img-overlay text-center d-flex flex-column justify-content-center align-items-center p-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5"><section>
+  <h2>Meet Our Gym Trainers</h2>
+  <p>Trainers at our gym are highly skilled to train you and mould you to the best version of yourself.</p>
+  <div class="cards">
+    <div class="card">
+      <div class="card-img-wrapper">
+        <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Joss Anderson">
+      </div>
+      <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+      <div class="card-content-wrapper">
+        <a href="#" class="card-content">
+          <h3>Kishore Kumar</h3>
+          <p>Gym Master</p>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </div>
+
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img-wrapper">
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="James Newton">
+      </div>
+      <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+      <div class="card-content-wrapper">
+        <a href="#" class="card-content">
+          <h3>Dhanabal</h3>
+          <p>Gym Trainer Expert</p>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </div>
+
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img-wrapper">
+        <img src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Oliver Jones">
+      </div>
+      <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+      <div class="card-content-wrapper">
+        <a href="#" class="card-content">
+          <h3>Kathirvel</h3>
+          <p>Leg Training Expert</p>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </div>
+
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img-wrapper">
+        <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Noah Wilson">
+      </div>
+      <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+      <div class="card-content-wrapper">
+        <a href="#" class="card-content">
+          <h3>Navin kumar</h3>
+          <p>Gym Lead and Advisor</p>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </div>
+
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+        <div class="row gy-4 gx-md-0 gy-md-0 row-cols-1 row-cols-md-2 row-cols-xl-3 d-md-flex d-xl-flex align-items-md-center">
+            <div class="col offset-xl-2">
+                <div class="card bg-body-tertiary border-0"></div>
+            </div>
+            <div class="col">
+                <div class="card text-white bg-primary border-0"></div>
+            </div>
+        </div>
+        
+    <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Testimonials- Hear From our Gym Students</h2>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+            <div class="col">
+                <div>
+                    <p class="bg-body-tertiary border rounded border-0 p-4">CognoGym is the best place if you want to get your body toned in few months.</p>
+                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/download.jpg">
+                        <div>
+                            <p class="fw-bold text-primary mb-0">RuthraVignesh</p>
+                            <p class="text-muted mb-0">Erat netus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <p class="bg-body-tertiary border rounded border-0 p-4">Thanks for cognoGym for being in my ups and downs during my weight gain journey</p>
+                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/images.jpg">
+                        <div>
+                            <p class="fw-bold text-primary mb-0">Aravind&nbsp;</p>
+                            <p class="text-muted mb-0">Erat netus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <p class="bg-body-tertiary border rounded border-0 p-4">I will recommend Cognogym strongly for begineers and experts who want to maintain their body</p>
+                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/images%20(1).jpg">
+                        <div>
+                            <p class="fw-bold text-primary mb-0">Murugan</p>
+                            <p class="text-muted mb-0">Erat netus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <ul class="list-group">
+                    <li class="list-group-item heading">
+                        <h1>Silver</h1>
+                        <h4>Basic Membership</h4><span class="price">500/mo</span>
+                    </li>
+                    <li class="list-group-item"><span>Access to minimum gym equipments</span></li>
+                    <li class="list-group-item"><span>1 Gb Dadicated Ram</span></li>
+                    <li class="list-group-item"><span>restricted access in timings</span></li>
+                    <li class="list-group-item"><span>No personalized diet plan</span></li>
+                    <li class="list-group-item"><span>Demo version of Progress Tracker</span></li>
+                    <li class="list-group-item"><div class="button">
+    <p class="btnText">Buy Now</p>
+    <div class="btnTwo">
+      <p class="btnText2"><i class="fa fa-plus" aria-hidden="true"></i></p>
+    </div>
+ </div></li>
+                </ul>
+                <footer class="text-center"></footer>
+            </div>
+            <div class="col-sm-4 text-center">
+                <ul class="list-group">
+                    <li class="list-group-item heading">
+                        <h1>Gold </h1>
+                        <h4>Lean-Bulking Membership</h4><span class="price">900/mo</span>
+                    </li>
+                    <li class="list-group-item"><span>Personalized diet plan</span></li>
+                    <li class="list-group-item"><span>Access to all gym equipments</span></li>
+                    <li class="list-group-item"><span>Personalized trainer</span></li>
+                    <li class="list-group-item"><span>Can access the gym anytime</span></li>
+                    <li class="list-group-item"><span>full access to progress tracker</span></li>
+                    <li class="list-group-item"><div class="button">
+    <p class="btnText">Buy Now</p>
+    <div class="btnTwo">
+      <p class="btnText2"><i class="fa fa-plus" aria-hidden="true"></i></p>
+    </div>
+ </div></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 text-center">
+                <ul class="list-group">
+                    <li class="list-group-item heading">
+                        <h1>Platinum </h1>
+                        <h4>LifeTime Membership</h4><span class="price">1500/mo</span>
+                    </li>
+                    <li class="list-group-item"><span>5 Gb Disk Space</span></li>
+                    <li class="list-group-item"><span>Permanent member in Gym</span></li>
+                    <li class="list-group-item"><span>Allowed to train Juniors</span></li>
+                    <li class="list-group-item"><span>Personalized trainer</span></li>
+                    <li class="list-group-item"><span><br>Can access the gym anytime<br><br></span></li>
+                    <li class="list-group-item"><div class="button">
+    <p class="btnText">Buy Now</p>
+    <div class="btnTwo">
+      <p class="btnText2"><i class="fa fa-plus" aria-hidden="true"></i></p>
+    </div>
+ </div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center bg-dark">
+        <div class="container text-white py-4 py-lg-5">
+            <div>
+                <div class="container-fluid">
+                    <h1>Contact Information</h1>
+                    <hr>
+                    <form id="contactForm-1" action="javascript:void(0);" method="get"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden" name="to" value="email@awebsite.com">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="successfail-1"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6" id="message-1">
+                                <h2 class="h4"><i class="fa fa-envelope"></i> Contact Us<small><small class="required-input">&nbsp;(*required)</small></small></h2>
+                                <div class="form-group mb-3"><label class="form-label" for="from-name">Name</label><span class="required-input">*</span>
+                                    <div class="input-group"><span class="input-group-text"><i class="fa fa-user-o"></i></span><input class="form-control" type="text" id="from-name-1" name="name" required="" placeholder="Full Name"></div>
+                                </div>
+                                <div class="form-group mb-3"><label class="form-label" for="from-email">Email</label><span class="required-input">*</span>
+                                    <div class="input-group"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span><input class="form-control" type="text" id="from-email-1" name="email" required="" placeholder="Email Address"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                        <div class="form-group mb-3"><label class="form-label" for="from-phone">Phone</label><span class="required-input">*</span>
+                                            <div class="input-group"><span class="input-group-text"><i class="fa fa-phone"></i></span><input class="form-control" type="text" id="from-phone-1" name="phone" required="" placeholder="Primary Phone"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                        <div class="form-group mb-3"><label class="form-label" for="from-calltime">Best Time to Call</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-clock-o"></i></span></div><select class="form-select" id="from-calltime-1" name="call time">
+                                                    <optgroup label="Best Time to Call">
+                                                        <option value="Morning" selected="">Morning</option>
+                                                        <option value="Afternoon">Afternoon</option>
+                                                        <option value="Evening">Evening</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3"><label class="form-label" for="from-comments">Comments</label><textarea class="form-control" id="from-comments-1" name="comments" placeholder="Enter Comments" rows="5"></textarea></div>
+                                <div class="form-group mb-3">
+                                    <div class="row">
+                                        <div class="col"><button class="btn btn-primary d-block w-100" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
+                                        <div class="col"><button class="btn btn-primary d-block w-100" type="submit">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+                                    </div>
+                                </div>
+                                <hr class="d-flex d-md-none">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <h2 class="h4"><i class="fa fa-location-arrow"></i> Locate Us</h2>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="static-map"><a rel="noopener" href="https://www.google.com/maps/place/Daytona+International+Speedway/@29.1815062,-81.0744275,15z/data=!4m13!1m7!3m6!1s0x88e6d935da1cced3:0xa6b3e1bc0f2fc83a!2s1801+W+International+Speedway+Blvd,+Daytona+Beach,+FL+32114!3b1!8m2!3d29.187028!4d-81.0703076!3m4!1s0x88e6d949a4cb8593:0x1387c6c0b5c8cc97!8m2!3d29.1851681!4d-81.0705292" target="_blank"> <img class="img-fluid" src="assets/img/GoogleMapTA.webp" alt="Google Map of Daytona International Speedway"></a></div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-12 col-lg-6">
+                                        <h2 class="h4"><i class="fa fa-user"></i> Our Info</h2>
+                                        <div><span><strong>Name</strong></span></div>
+                                        <div><span>congogym@gmail.com</span></div>
+                                        <div><span>www.cognogym.com</span></div>
+                                        <hr class="d-sm-none d-md-block d-lg-none">
+                                    </div>
+                                    <div class="col-sm-6 col-md-12 col-lg-6">
+                                        <h2 class="h4"><i class="fa fa-location-arrow"></i> Our Address</h2>
+                                        <div><span><strong>Office Name</strong></span></div>
+                                        <div><span>sriRam complex</span></div>
+                                        <div><span>marina beach, FL 85150</span></div>
+                                        <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">+91</abbr> 9791540353</div>
+                                        <hr class="d-sm-none">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4>Contact Information</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="contactForm-2" action="javascript:void(0);" method="get"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden" name="to" value="email@awebsite.com">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div id="successfail-2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6" id="message-2">
+                                            <h2 class="h4"><i class="fa fa-envelope"></i> Contact Us<small><small class="required-input">&nbsp;(*required)</small></small></h2>
+                                            <div class="form-group mb-3"><label class="form-label" for="from-name">Name</label><span class="required-input">*</span>
+                                                <div class="input-group"><span class="input-group-text"><i class="fa fa-user-o"></i></span><input class="form-control" type="text" id="from-name-2" name="name" required="" placeholder="Full Name"></div>
+                                            </div>
+                                            <div class="form-group mb-3"><label class="form-label" for="from-email">Email</label><span class="required-input">*</span>
+                                                <div class="input-group"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span><input class="form-control" type="text" id="from-email-2" name="email" required="" placeholder="Email Address"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="form-group mb-3"><label class="form-label" for="from-phone">Phone</label><span class="required-input">*</span>
+                                                        <div class="input-group"><span class="input-group-text"><i class="fa fa-phone"></i></span><input class="form-control" type="text" id="from-phone-2" name="phone" required="" placeholder="Primary Phone"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="form-group mb-3"><label class="form-label" for="from-calltime">Best Time to Call</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-clock-o"></i></span></div><select class="form-select" id="from-calltime-2" name="call time">
+                                                                <optgroup label="Best Time to Call">
+                                                                    <option value="Morning" selected="">Morning</option>
+                                                                    <option value="Afternoon">Afternoon</option>
+                                                                    <option value="Evening">Evening</option>
+                                                                </optgroup>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group mb-3"><label class="form-label" for="from-comments">Comments</label><textarea class="form-control" id="from-comments-2" name="comments" placeholder="Enter Comments" rows="5"></textarea></div>
+                                            <div class="form-group mb-3">
+                                                <div class="row">
+                                                    <div class="col"><button class="btn btn-primary d-block w-100" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
+                                                    <div class="col"><button class="btn btn-primary d-block w-100" type="submit">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+                                                </div>
+                                            </div>
+                                            <hr class="d-flex d-md-none">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <h2 class="h4"><i class="fa fa-location-arrow"></i> Locate Us</h2>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="static-map"><a rel="noopener" href="https://www.google.com/maps/place/Daytona+International+Speedway/@29.1815062,-81.0744275,15z/data=!4m13!1m7!3m6!1s0x88e6d935da1cced3:0xa6b3e1bc0f2fc83a!2s1801+W+International+Speedway+Blvd,+Daytona+Beach,+FL+32114!3b1!8m2!3d29.187028!4d-81.0703076!3m4!1s0x88e6d949a4cb8593:0x1387c6c0b5c8cc97!8m2!3d29.1851681!4d-81.0705292" target="_blank"> <img class="img-fluid" src="http://maps.googleapis.com/maps/api/staticmap?autoscale=2&amp;size=600x210&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C582+1801+W+International+Speedway+Blvd+Daytona+Beach+FL+32114&amp;zoom=12" alt="Google Map of Daytona International Speedway"></a></div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                                    <h2 class="h4"><i class="fa fa-user"></i> Our Info</h2>
+                                                    <div><span><strong>Name</strong></span></div>
+                                                    <div><span>email@awebsite.com</span></div>
+                                                    <div><span>www.awebsite.com</span></div>
+                                                    <hr class="d-sm-none d-md-block d-lg-none">
+                                                </div>
+                                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                                    <h2 class="h4"><i class="fa fa-location-arrow"></i> Our Address</h2>
+                                                    <div><span><strong>Office Name</strong></span></div>
+                                                    <div><span>55 Icannot Dr</span></div>
+                                                    <div><span>Daytone Beach, FL 85150</span></div>
+                                                    <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
+                                                    <hr class="d-sm-none">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item me-4"><a class="link-light" href="#">Web design</a></li>
+                <li class="list-inline-item me-4"><a class="link-light" href="#">Development</a></li>
+                <li class="list-inline-item"><a class="link-light" href="#">Hosting</a></li>
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item me-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook text-light">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
+                    </svg></li>
+                <li class="list-inline-item me-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter text-light">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"></path>
+                    </svg></li>
+                <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram text-light">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+                    </svg></li>
+            </ul>
+            <p class="text-muted mb-0">Copyright © 2024 Brand</p>
+        </div>
+      
+    </footer>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
+
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Title</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The content of your modal.</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-body"></div>
+        <div class="container py-4 py-xl-5">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col"><img class="rounded w-100 h-100 fit-cover" style="min-height: 300px;" src="assets/img/Fritton+Lake+2022+by+Edvinas+Bruzas+58+LR.jpg"></div>
+                <div class="col d-flex flex-column justify-content-center p-4">
+                    <div class="text-center text-md-start d-flex flex-column align-items-center align-items-md-start mb-5">
+                        <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon md"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bell">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6"></path>
+                            </svg></div>
+                        <div>
+                            <h4>Australian Dumbles</h4>
+                            <p>We have the australian dumbles that are exclusively imported from australia</p><a href="#">Learn More&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-start d-flex flex-column align-items-center align-items-md-start mb-5">
+                        <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon md"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bell">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6"></path>
+                            </svg></div>
+                        <div>
+                            <h4>Cable pullups machine</h4>
+                            <p>We have the huge pull ups machine to build your chest and shoulderes</p><a href="#">Learn More&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-start d-flex flex-column align-items-center align-items-md-start">
+                        <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-3 bs-icon md"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bell">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6"></path>
+                            </svg></div>
+                        <div>
+                            <h4>Corinzo Trainer equipment</h4>
+                            <p>The ever expensive corinzo equipment is available in our gym</p><a href="#">Learn More&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-3">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Title</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The content of your modal.</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Title</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The content of your modal.</p>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Collapsible-List-Group-collapsibleListGrouo.js"></script>
+    <script src="assets/js/Contact-Form-v2-Modal--Full-with-Google-Map-scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-filter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="assets/js/Ludens---Dark-Mode-Admin-Dashboard-Ludens---1-Index-Table-with-Search--Sort-Filters-v20-1.js"></script>
+    <script src="assets/js/Ludens---Dark-Mode-Admin-Dashboard-Ludens---1-Index-Table-with-Search--Sort-Filters-v20.js"></script>
+    <script src="assets/js/Ludens---Dark-Mode-Admin-Dashboard-Ludens---Sleek-Image-Input-with-Preview.js"></script>
+    <script src="assets/js/Ludens---Dark-Mode-Admin-Dashboard-main.js"></script>
+    <script src="assets/js/Ludens---Dark-Mode-Admin-Dashboard-modalDelete.js"></script>
+    <script src="assets/js/Ludens---Dark-Mode-Admin-Dashboard-theme.js"></script>
+</body>
+
+</html>
